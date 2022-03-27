@@ -2,29 +2,15 @@
     <product>
         <productId>1</productId>
         <productName>Apple iPhone</productName>
-        <productDesc>Apple cell(from XML)</productDesc>
+        <productDesc>Apple cell (from XML)</productDesc>
         <unit>10</unit>
         <price>300.00</price>
     </product>
     <product>
         <productId>2</productId>
-        <productName>Dell Computer</productName>
-        <productDesc>Dell Computer(from XML)</productDesc>
+        <productName>Dell computer</productName>
+        <productDesc>Dell computer (from XML)</productDesc>
         <unit>100</unit>
         <price>7000.00</price>
-    </product>
-    <product>
-        <productId>3</productId>
-        <productName>Apple iPhone</productName>
-        <productDesc>Apple cell(from XML)</productDesc>
-        <unit>20</unit>
-        <price>300.00</price>
-    </product>
-    <product>
-        <productId>4</productId>
-        <productName>Apple iPhone</productName>
-        <productDesc>Apple cell(from XML)</productDesc>
-        <unit>18</unit>
-        <price>500.00</price>
     </product>
 </products>

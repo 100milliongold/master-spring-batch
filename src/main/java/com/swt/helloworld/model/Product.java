@@ -6,16 +6,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.math.BigDecimal;
 
-
-@XmlRootElement(name = "product")
+@XmlRootElement(name="product")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Product {
 
-
-    @XmlElement(name = "productId")
     private Integer productId;
 
-    @XmlElement(name = "productName")
+    @XmlElement(name="productName")
     private String prodName;
   
     private BigDecimal price;
@@ -26,8 +23,8 @@ public class Product {
     public String toString() {
         return "Product{" +
                 "productID=" + productId +
-                ", productName='" + productDesc + '\'' +
-                ", ProductDesc='" + productDesc + '\'' +
+                ", productName='" + prodName + '\'' +
+                ", productDesc='" + productDesc + '\'' +
                 ", price=" + price +
                 ", unit=" + unit +
                 '}';
@@ -54,7 +51,7 @@ public class Product {
     }
 
     public void setProductDesc(String productDesc) {
-        productDesc = productDesc;
+        this.productDesc = productDesc;
     }
 
     public BigDecimal getPrice() {
